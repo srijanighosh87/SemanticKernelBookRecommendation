@@ -1,0 +1,28 @@
+{
+  "$schema": 1,
+  "type": "completion",
+  "description": "Recommends books based on user preferences and location.",
+  "execution_settings": {
+    "default": {
+      "max_tokens": 700,
+      "temperature": 0
+    }
+  },
+  "input_variables": [
+    {
+      "name": "genre",
+      "description": "The user's preferred book genre",
+      "required": true
+    },
+    {
+      "name": "country",
+      "description": "The user's country",
+      "required": true
+    },
+    {
+      "name": "languages",
+      "description": "The primary languages spoken in the user's location",
+      "required": true
+    }
+  ]
+}
