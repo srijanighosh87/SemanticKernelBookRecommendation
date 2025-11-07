@@ -16,6 +16,3 @@ The **Semantic Kernel Book Recommendation** is a .NET 8 console application that
 - .NET 8 SDK installed.
 - Azure OpenAI account with access to GPT-4.
 - Google Books API (no authentication required for basic usage).
-
-## Installation
-1. Clone the repository:
